@@ -1,0 +1,71 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:EquationCalculator.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="EquationCalculator.Views.MainWindow"
+        Icon="/Assets/calculator_icon.ico"
+        Width="365"
+        Height="520"
+        
+        Title="Калькулятор уравнений">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    
+    <StackPanel>
+        <Label Content="Уравнение"></Label>
+        <Border Background="#f0f0f0"
+                BorderBrush="#c9c0bb"
+                BorderThickness="1"
+                CornerRadius="3"
+                Padding="4"
+                Margin="5,0,5,5">
+            
+            <Label Height="30"></Label>
+        </Border>
+        
+        
+            <Grid Margin="10" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" >
+                <Grid Grid.Row="0" ColumnDefinitions="Auto,Auto,Auto,Auto,Auto">
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="0" Content="с" Margin="3" Background="#cccccc"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="1" Content="+/-" Margin="3" Background="#cccccc"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="2" Content="%" Margin="3"  Background="#cccccc"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="3" Content="/" Margin="3" Background="#ffa000"></Button>
+                </Grid>
+                <Grid Grid.Row="1"  ColumnDefinitions="Auto,Auto,Auto,Auto">
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="0" Content="7" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="1" Content="8" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="2" Content="9" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="3" Content="*" Margin="3" Background="#ffa000"></Button>
+                </Grid>
+                
+                <Grid Grid.Row="2"  ColumnDefinitions="Auto,Auto,Auto,Auto">
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="0"  Content="4" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="1"  Content="5" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="2"  Content="6" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="3"  Content="-" Margin="3" Background="#ffa000"></Button>
+                </Grid>
+                
+                <Grid Grid.Row="3"  ColumnDefinitions="Auto,Auto,Auto,Auto">
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="0" Content="1" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="1" Content="2" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="2" Content="3" Margin="3"></Button>
+                    <Button Width="80" FontSize="50" HorizontalContentAlignment="Center" Height="80" Grid.Column="3" Content="+" Margin="3" Background="#ffa000"></Button>
+                </Grid>
+                
+                <Grid Grid.Row="4"  ColumnDefinitions="Auto,Auto,Auto">
+                    <Button Width="166" FontSize="50"  HorizontalContentAlignment="Center"  Height="80" Grid.Column="0" Content="0" Margin="3"></Button>
+                    <Button Width="80"  FontSize="50"  HorizontalContentAlignment="Center" Height="80" Grid.Column="1" Content="." Margin="3" ></Button>
+                    <Button Width="80"  FontSize="50"  HorizontalContentAlignment="Center" Height="80" Grid.Column="2" Content="=" Margin="3" Background="#ffa000"></Button>
+                </Grid>
+            </Grid>
+    </StackPanel>
+
+    
+
+</Window>
