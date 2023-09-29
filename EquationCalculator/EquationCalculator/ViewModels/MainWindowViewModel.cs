@@ -1,6 +1,11 @@
-﻿namespace EquationCalculator.ViewModels;
+﻿using EquationCalculator.Components;
+
+namespace EquationCalculator.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {
-    public string Greeting => "Welcome to Avalonia!";
+    public LinearEquationsViewModel LinearEquationsViewModel { get; set; } = new();
+    public MatricesViewModel MatricesViewModel { get; set; } = new();
+    public LogarithmViewModel LogarithmViewModel { get; set; } = new();
+    
 }

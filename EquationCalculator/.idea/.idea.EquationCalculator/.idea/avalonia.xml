@@ -3,6 +3,10 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="EquationCalculator/App.axaml" value="EquationCalculator/EquationCalculator.csproj" />
+        <entry key="EquationCalculator/Components/LinearEquations.axaml" value="EquationCalculator/EquationCalculator.csproj" />
+        <entry key="EquationCalculator/Components/LogarithmView.axaml" value="EquationCalculator/EquationCalculator.csproj" />
+        <entry key="EquationCalculator/Components/Matrices.axaml" value="EquationCalculator/EquationCalculator.csproj" />
         <entry key="EquationCalculator/Views/MainWindow.axaml" value="EquationCalculator/EquationCalculator.csproj" />
       </map>
     </option>
