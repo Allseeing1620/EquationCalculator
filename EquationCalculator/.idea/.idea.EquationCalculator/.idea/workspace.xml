@@ -9,8 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696026764426</updated>
-      <workItem from="1696026765453" duration="6429000" />
+      <workItem from="1696026765453" duration="8631000" />
     </task>
     <servers />
   </component>
@@ -94,17 +94,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs</url>
-          <line>108</line>
-          <properties documentPath="D:\MyProg\EquationCalculator\EquationCalculator\EquationCalculator\Components\LinearEquationsViewModel.cs" initialLine="108" containingFunctionPresentation="Method 'test'">
+          <url>file://$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs</url>
+          <line>75</line>
+          <properties documentPath="D:\MyProg\EquationCalculator\EquationCalculator\EquationCalculator\Components\MatricesViewModel.cs" initialLine="35" containingFunctionPresentation="Method 'Write'">
             <startOffsets>
-              <option value="2751" />
+              <option value="1826" />
             </startOffsets>
             <endOffsets>
-              <option value="2763" />
+              <option value="1846" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
