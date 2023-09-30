@@ -8,30 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/EquationCalculator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/EquationCalculator.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Roots.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/ViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/ViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/app.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/app.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696026764426</updated>
-      <workItem from="1696026765453" duration="3279000" />
+      <workItem from="1696026765453" duration="6429000" />
     </task>
     <servers />
   </component>
@@ -100,5 +89,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs</url>
+          <line>108</line>
+          <properties documentPath="D:\MyProg\EquationCalculator\EquationCalculator\EquationCalculator\Components\LinearEquationsViewModel.cs" initialLine="108" containingFunctionPresentation="Method 'test'">
+            <startOffsets>
+              <option value="2751" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2763" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
