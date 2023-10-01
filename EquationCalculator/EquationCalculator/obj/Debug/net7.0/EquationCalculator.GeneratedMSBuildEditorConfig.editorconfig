@@ -13,19 +13,19 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EquationCalculator
-build_property.ProjectDir = I:\MyProg\EquationCalculator\EquationCalculator\EquationCalculator\
+build_property.ProjectDir = I:\EquationCalculator\EquationCalculator\EquationCalculator\
 
-[I:/MyProg/EquationCalculator/EquationCalculator/EquationCalculator/App.axaml]
+[I:/EquationCalculator/EquationCalculator/EquationCalculator/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[I:/MyProg/EquationCalculator/EquationCalculator/EquationCalculator/Components/LinearEquations.axaml]
+[I:/EquationCalculator/EquationCalculator/EquationCalculator/Components/LinearEquations.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[I:/MyProg/EquationCalculator/EquationCalculator/EquationCalculator/Components/LogarithmView.axaml]
+[I:/EquationCalculator/EquationCalculator/EquationCalculator/Components/LogarithmView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[I:/MyProg/EquationCalculator/EquationCalculator/EquationCalculator/Components/Matrices.axaml]
+[I:/EquationCalculator/EquationCalculator/EquationCalculator/Components/Matrices.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[I:/MyProg/EquationCalculator/EquationCalculator/EquationCalculator/Views/MainWindow.axaml]
+[I:/EquationCalculator/EquationCalculator/EquationCalculator/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

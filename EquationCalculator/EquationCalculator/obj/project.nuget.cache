@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l7BegATrFCfgcZEoazU8FlpefyGbBFitF9tnXnjRk+X8kSmV4xGItKa3vlCsPPetBJd2h6ytvSDi/bhudHq93Q==",
+  "dgSpecHash": "ainMX5GSqUMOAKI2QQfXdW2c4EI90toXIddD+2eXgdAdU46ZwOmYD2mdEd6L641M4/6+rhNRKV3riJ8SO1nADg==",
   "success": true,
-  "projectFilePath": "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
+  "projectFilePath": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\avalonia\\11.0.4\\avalonia.11.0.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {}
+    "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {}
   },
   "projects": {
-    "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
+    "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
+        "projectUniqueName": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
         "projectName": "EquationCalculator",
-        "projectPath": "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
+        "projectPath": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "I:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\obj\\",
+        "outputPath": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
