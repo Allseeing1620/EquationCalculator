@@ -9,13 +9,30 @@
   <component name="ChangeListManager">
     <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" afterDir="false" />
@@ -26,13 +43,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2e2569a599c90377c1a97627ad8774b6db45b50adadbf7ef077d29896d719/RuntimeHelpers.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b834b5fa41a94dd4b4ce869093a514b91ad400/b3/ea16c1fa/ExpressionObserver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/74d1dea0891bd9f3515fc4d4fd5570c65da55efb64d7e992e68fd5821ebc24c0/AnonymousSafeObserver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2W5eFPH44ya2nKNVrm7yUap7CTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,9 +79,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\Oleg\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Oleg\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Oleg\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -91,12 +119,15 @@
       <workItem from="1696165302126" duration="1976000" />
       <workItem from="1696167529169" duration="17000" />
       <workItem from="1696167618095" duration="318000" />
+      <workItem from="1696228963299" duration="2142000" />
+      <workItem from="1696232735188" duration="2205000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

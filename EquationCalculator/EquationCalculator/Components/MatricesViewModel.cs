@@ -21,69 +21,75 @@ public class MatricesViewModel: ViewModelBase
    private int _l2_0 = 0;
    private int _l1_2 = 0;
    private int _l1_1 = 0;
-   private int _matricesTwo_L1_0;
-   private int _matricesTwo_L1_1;
-   private int _matrices_L1_0;
-   private int _matrices_L3_2;
-   private int _matrices_L1_1;
-   private int _matrices_L1_2;
-   private int _result_L2_0;
-   private int _matrices_L2_0;
-   private int _matrices_L2_1;
-   private int _matrices_L2_2;
-   private int _matrices_L3_0;
-   private int _matrices_L3_1;
-   private int _result_L3_1;
+   
+   private string _matrices_L1_0 = "0";
+   private string _matrices_L1_1 = "0";
+   private string _matrices_L1_2 = "0";
+   private string _matrices_L2_0 = "0";
+   private string _matrices_L2_1 = "0";
+   private string _matrices_L2_2 = "0";
+   private string _matrices_L3_0 = "0";
+   private string _matrices_L3_1 = "0";
+   private string _matrices_L3_2 = "0";
+   
+   private string _matricesTwo_L1_0 = "0";
+   private string _matricesTwo_L1_1 = "0";
+   private string _matricesTwo_L1_2 = "0";
+   private string _matricesTwo_L3_0 = "0";
+   private string _matricesTwo_L3_1 = "0";
+   private string _matricesTwo_L3_2 = "0";
+   private string _matricesTwo_L2_0 = "0";
+   private string _matricesTwo_L2_1 = "0";
+   private string _matricesTwo_L2_2 = "0";
+   
    private int _result_L1_0;
    private int _result_L1_1;
    private int _result_L1_2;
-   private int _result_L3_0;
-   private int _result_L3_2;
-   private int _result_L2_2;
+   private int _result_L2_0;
    private int _result_L2_1;
-   private int _matricesTwo_L1_2;
-   private int _matricesTwo_L3_2;
-   private int _matricesTwo_L3_1;
-   private int _matricesTwo_L3_0;
-   private int _matricesTwo_L2_2;
-   private int _matricesTwo_L2_0;
-   private int _matricesTwo_L2_1;
+   private int _result_L2_2;
+   private int _result_L3_0;
+   private int _result_L3_1;
+   private int _result_L3_2;
+   
+   
+   
    private string _sing = "+";
 
 
-   public int  Matrices_L1_0 { 
+   public string  Matrices_L1_0 { 
       get => _matrices_L1_0;
       set => this.RaiseAndSetIfChanged(ref _matrices_L1_0, value);
    }
-   public int  Matrices_L1_1 { 
+   public string  Matrices_L1_1 { 
       get => _matrices_L1_1;
       set => this.RaiseAndSetIfChanged(ref _matrices_L1_1, value);
    }
-   public int  Matrices_L1_2 { 
+   public string  Matrices_L1_2 { 
       get => _matrices_L1_2;
       set => this.RaiseAndSetIfChanged(ref _matrices_L1_2, value);
    }
-   public int  Matrices_L2_0 { 
+   public string  Matrices_L2_0 { 
       get => _matrices_L2_0;
       set => this.RaiseAndSetIfChanged(ref _matrices_L2_0, value);
    }
-   public int  Matrices_L2_1{ 
+   public string  Matrices_L2_1{ 
       get => _matrices_L2_1;
       set => this.RaiseAndSetIfChanged(ref _matrices_L2_1, value);
    }
-   public int  Matrices_L2_2{ 
+   public string  Matrices_L2_2{ 
       get => _matrices_L2_2;
       set => this.RaiseAndSetIfChanged(ref _matrices_L2_2, value);
    }
-   public int  Matrices_L3_0 {
+   public string  Matrices_L3_0 {
       get => _matrices_L3_0;
       set => this.RaiseAndSetIfChanged(ref _matrices_L3_0, value);
    }
-   public int Matrices_L3_1 { 
+   public string Matrices_L3_1 { 
       get => _matrices_L3_1;
       set => this.RaiseAndSetIfChanged(ref _matrices_L3_1, value);
    }
-   public int  Matrices_L3_2 { 
+   public string  Matrices_L3_2 { 
       get => _matrices_L3_2;
       set => this.RaiseAndSetIfChanged(ref _matrices_L3_2, value);
    }
@@ -124,39 +130,39 @@ public class MatricesViewModel: ViewModelBase
       get => _result_L2_0;
       set => this.RaiseAndSetIfChanged(ref _result_L2_0, value);
    }
-   public int MatricesTwo_L3_2 { 
+   public string MatricesTwo_L3_2 { 
       get => _matricesTwo_L3_2;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L3_2, value);
    }
-   public int MatricesTwo_L3_1 { 
+   public string MatricesTwo_L3_1 { 
       get => _matricesTwo_L3_1;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L3_1, value);
    }
-   public int MatricesTwo_L3_0 { 
+   public string MatricesTwo_L3_0 { 
       get => _matricesTwo_L3_0;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L3_0, value);
    }
-   public int MatricesTwo_L2_2 { 
+   public string MatricesTwo_L2_2 { 
       get => _matricesTwo_L2_2;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L2_2, value);
    }
-   public int MatricesTwo_L2_1 { 
+   public string MatricesTwo_L2_1 { 
       get => _matricesTwo_L2_1;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L2_1, value);
    }
-   public int MatricesTwo_L2_0 { 
+   public string MatricesTwo_L2_0 { 
       get => _matricesTwo_L2_0;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L2_0, value);
    }
-   public int MatricesTwo_L1_2 { 
+   public string MatricesTwo_L1_2 { 
       get => _matricesTwo_L1_2;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L1_2, value);
    }
-   public int MatricesTwo_L1_1 { 
+   public string MatricesTwo_L1_1 { 
       get => _matricesTwo_L1_1;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L1_1, value);
    }
-   public int MatricesTwo_L1_0 { 
+   public string MatricesTwo_L1_0 { 
       get => _matricesTwo_L1_0;
       set => this.RaiseAndSetIfChanged(ref _matricesTwo_L1_0, value);
    }
@@ -218,25 +224,25 @@ public class MatricesViewModel: ViewModelBase
    
    private void OnPropertyChanged(object? sender, PropertyChangedEventArgs e)
    {
-      MatrixOne[0, 0] =  Matrices_L1_0;
-      MatrixOne[0, 1] =  Matrices_L1_1;
-      MatrixOne[0, 2] =  Matrices_L1_2;
-      MatrixOne[1, 0] =  Matrices_L2_0;
-      MatrixOne[1, 1] =  Matrices_L2_1;
-      MatrixOne[1, 2] =  Matrices_L2_2;
-      MatrixOne[2, 0] =  Matrices_L3_0;
-      MatrixOne[2, 1] =  Matrices_L3_1;
-      MatrixOne[2, 2] =  Matrices_L3_2;
-      
-      MatrixTwo[0, 0] =  MatricesTwo_L1_0;
-      MatrixTwo[0, 1] =  MatricesTwo_L1_1;
-      MatrixTwo[0, 2] =  MatricesTwo_L1_2;
-      MatrixTwo[1, 0] =  MatricesTwo_L2_0;
-      MatrixTwo[1, 1] =  MatricesTwo_L2_1;
-      MatrixTwo[1, 2] =  MatricesTwo_L2_2;
-      MatrixTwo[2, 0] =  MatricesTwo_L3_0;
-      MatrixTwo[2, 1] =  MatricesTwo_L3_1;
-      MatrixTwo[2, 2] =  MatricesTwo_L3_2;
+      Int32.TryParse(Matrices_L1_0, out MatrixOne[0, 0]);
+      Int32.TryParse(Matrices_L1_1, out MatrixOne[0, 1]);
+      Int32.TryParse(Matrices_L1_2, out MatrixOne[0, 2]);
+      Int32.TryParse(Matrices_L2_0, out MatrixOne[1, 0]);
+      Int32.TryParse(Matrices_L2_1, out MatrixOne[1, 1]);
+      Int32.TryParse(Matrices_L2_2, out MatrixOne[1, 2]);
+      Int32.TryParse(Matrices_L3_0, out MatrixOne[2, 0]);
+      Int32.TryParse(Matrices_L3_1, out MatrixOne[2, 1]);
+      Int32.TryParse(Matrices_L3_2, out MatrixOne[2, 2]);
+   
+      Int32.TryParse(MatricesTwo_L1_0, out MatrixTwo[0, 0]);
+      Int32.TryParse(MatricesTwo_L1_1, out MatrixTwo[0, 1]);
+      Int32.TryParse(MatricesTwo_L1_2, out MatrixTwo[0, 2]);
+      Int32.TryParse(MatricesTwo_L2_0, out MatrixTwo[1, 0]);
+      Int32.TryParse(MatricesTwo_L2_1, out MatrixTwo[1, 1]);
+      Int32.TryParse(MatricesTwo_L2_2, out MatrixTwo[1, 2]);
+      Int32.TryParse(MatricesTwo_L3_0, out MatrixTwo[2, 0]);
+      Int32.TryParse(MatricesTwo_L3_1, out MatrixTwo[2, 1]);
+      Int32.TryParse(MatricesTwo_L3_2, out MatrixTwo[2, 2]);
       
       IdentifySign(Sign);
 
@@ -244,6 +250,8 @@ public class MatricesViewModel: ViewModelBase
 
    private void IdentifySign(string sing)
    {
+      Array.Clear(MatrixResult, 0, MatrixResult.Length);
+      
       switch (sing)
       {
          case "+":
@@ -260,29 +268,32 @@ public class MatricesViewModel: ViewModelBase
 
    private void Sum()
    {
-      for (int i = 0; i < 2; i++)
-      for (int j = 0; j < 2; j++) {
-         MatrixResult[i, j] = MatrixOne[i, j] + MatrixTwo[i, j];
-      }            
+      for (int i = 0; i < 3; i++)
+      {
+         for (int j = 0; j < 3; j++)
+         {
+            MatrixResult[i, j] = MatrixOne[i, j] + MatrixTwo[i, j];
+         }
+      }
    }
 
    private void Difference()
-   {
-      for (int i = 0; i < 2; i++)
-         for (int j = 0; j < 2; j++) {
+   {  
+      for (int i = 0; i < 3; i++)
+         for (int j = 0; j < 3; j++) {
             MatrixResult[i, j] = MatrixOne[i, j] - MatrixTwo[i, j];
          }
    }
    
    private void Multiplication()
    {
-      for (int i = 0; i < MatrixOne.GetLength(0); i++)
+      for (int i = 0; i < 3; i++)
       {
-         for (int j = 0; j < MatrixTwo.GetLength(1); j++)
+         for (int j = 0; j < 3; j++)
          {
-            for (int k = 0; k < MatrixTwo.GetLength(0); k++)
+            for (int k = 0; k < 3; k++)
             {
-               MatrixResult[i,j] += MatrixOne[i,k] * MatrixTwo[k,j];
+               MatrixResult[i, j] += MatrixOne[i, k] * MatrixTwo[k, j];
             }
          }
       }
