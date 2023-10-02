@@ -12,11 +12,20 @@
         <components:LinearEquationsViewModel />
     </Design.DataContext>
     
-        <StackPanel>
+    <Grid RowDefinitions="Auto,Auto, Auto">
+        <StackPanel Grid.Row="0">
             <Grid ColumnDefinitions="Auto,Auto,Auto">
-            <TextBox Grid.Column="0" Height="50" Text="{Binding BoxOne}"></TextBox>
+            <TextBox Grid.Column="0" Height="25" Width="100" Text="{Binding BoxOne}"></TextBox>
             <Label Grid.Column="1" Content="="/>
-            <TextBox Grid.Column="2"  Height="50" Text="{Binding BoxTwo}"></TextBox>
+            <TextBox Grid.Column="2"  Height="25" Width="100" Text="{Binding BoxTwo}"></TextBox>
             </Grid>
         </StackPanel>
+        
+        <Grid ColumnDefinitions="Auto, Auto" Grid.Row="1">
+            <Label>x=</Label>
+            <Label Grid.Column="1">-1</Label>
+        </Grid>
+        
+        <Button Grid.Row = "2" Click="Сalculate">Рассчитать</Button>
+    </Grid>
 </UserControl>

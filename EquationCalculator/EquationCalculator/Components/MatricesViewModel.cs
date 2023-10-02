@@ -8,11 +8,11 @@ namespace EquationCalculator.Components;
 
 public class MatricesViewModel: ViewModelBase
 {
-   
-   private int _l1_0;
    public  int[,] MatrixOne = new int[3,3];
    public  int[,] MatrixTwo = new int[3,3];
    public  int[,] MatrixResult = new int[3,3];
+   
+   private int _l1_0 = 0;
    private int _l3_2 = 0;
    private int _l3_1 = 0;
    private int _l3_0 = 0;

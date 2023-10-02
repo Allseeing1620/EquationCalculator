@@ -7,36 +7,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="">
+    <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="Matrix calculating done">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquations.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LinearEquationsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/Matrices.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +106,19 @@
       <workItem from="1696167529169" duration="17000" />
       <workItem from="1696167618095" duration="318000" />
       <workItem from="1696228963299" duration="2142000" />
-      <workItem from="1696232735188" duration="2205000" />
+      <workItem from="1696232735188" duration="4997000" />
+      <workItem from="1696245827578" duration="1004000" />
+      <workItem from="1696248886281" duration="774000" />
     </task>
+    <task id="LOCAL-00001" summary="Matrix calculating done">
+      <option name="closed" value="true" />
+      <created>1696235231922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696235231922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +128,7 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Matrix calculating done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matrix calculating done" />
   </component>
 </project>

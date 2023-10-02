@@ -73,6 +73,6 @@
             <Label Grid.Column="2" Content="{Binding ResultL32 }"></Label>
         </Grid>
     </Grid>
-        <Button Click="Сalculate">Расчитать</Button>
+        <Button Click="Сalculate">Рассчитать</Button>
     </Grid>
 </UserControl>
