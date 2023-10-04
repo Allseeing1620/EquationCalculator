@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {}
+    "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {}
   },
   "projects": {
-    "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
+    "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
+        "projectUniqueName": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
         "projectName": "EquationCalculator",
-        "projectPath": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "I:\\EquationCalculator\\EquationCalculator\\EquationCalculator\\obj\\",
+        "projectPath": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj",
+        "packagesPath": "C:\\Users\\п\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\п\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

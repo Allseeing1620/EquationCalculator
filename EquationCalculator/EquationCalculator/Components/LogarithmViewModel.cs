@@ -24,7 +24,7 @@ public class LogarithmViewModel : ViewModelBase
         get => _valueLogarithm; 
         set => this.RaiseAndSetIfChanged(ref _valueLogarithm, value);
     }
-
+    
     public void Result()
     {
         ResultValue = Math.Log(Convert.ToDouble(ValueLogarithm),Convert.ToDouble(BaseLogarithm)).ToString("#0.00");
