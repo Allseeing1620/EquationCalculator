@@ -2,5 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4a317647_002De778_002D4003_002Da15f_002D4d4c704ee4f6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::E2CE73F3-5EE3-4F05-AB95-B21B15FBB23F::net7.0::EquationCalculator.Tests.Tests.ResultLogarithm_test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::05D3F217-750D-4748-8C72-CD22DE8CD1CD::net6.0::EquationCalculator.Spec.Features.CalculatorFeature.AddTwoNumbers&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
