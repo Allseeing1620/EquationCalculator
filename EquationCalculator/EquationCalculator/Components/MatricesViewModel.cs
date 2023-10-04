@@ -312,5 +312,51 @@ public class MatricesViewModel: ViewModelBase
       ResultL31 = MatrixResult[2, 1];
       ResultL32 = MatrixResult[2, 2];
    }
+
+   public int[, ] Transpose(int [, ] Matr)
+   {
+      int buf = 0;
+      
+      for (int i = 0; i < 3; i++)
+      {
+         for (int j = i; j < 3; j++)
+         {
+            buf = Matr[i, j];
+            Matr[i, j] = Matr[j, i];
+            Matr[j, i] = buf;
+         }
+      }
+
+      return Matr;
+   }
+
+   public void TransposeOne()
+   {
+      int[,] matr = Transpose(MatrixOne);
+
+      Matrices_L1_0 = matr[0, 0].ToString();
+      Matrices_L1_1 = matr[0, 1].ToString();
+      Matrices_L1_2 = matr[0, 2].ToString();
+      Matrices_L2_0 = matr[1, 0].ToString();
+      Matrices_L2_1 = matr[1, 1].ToString();
+      Matrices_L2_2 = matr[1, 2].ToString();
+      Matrices_L3_0 = matr[2, 0].ToString();
+      Matrices_L3_1 = matr[2, 1].ToString();
+      Matrices_L3_2 = matr[2, 2].ToString();
+   }
    
+   public void TransposeTwo()
+   {
+      int[,] matr = Transpose(MatrixTwo);
+      
+      MatricesTwo_L1_0 = matr[0, 0].ToString();
+      MatricesTwo_L1_1 = matr[0, 1].ToString();
+      MatricesTwo_L1_2 = matr[0, 2].ToString();
+      MatricesTwo_L2_0 = matr[1, 0].ToString();
+      MatricesTwo_L2_1 = matr[1, 1].ToString();
+      MatricesTwo_L2_2 = matr[1, 2].ToString();
+      MatricesTwo_L3_0 = matr[2, 0].ToString();
+      MatricesTwo_L3_1 = matr[2, 1].ToString();
+      MatricesTwo_L3_2 = matr[2, 2].ToString();
+   }
 }

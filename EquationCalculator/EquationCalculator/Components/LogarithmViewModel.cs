@@ -27,6 +27,6 @@ public class LogarithmViewModel : ViewModelBase
     
     public void Result()
     {
-        ResultValue = Math.Log(Convert.ToDouble(ValueLogarithm),Convert.ToDouble(BaseLogarithm)).ToString("#0.00");
+        ResultValue = Math.Log(Convert.ToDouble(BaseLogarithm),Convert.ToDouble(ValueLogarithm)).ToString("#0.00");
     }
 }

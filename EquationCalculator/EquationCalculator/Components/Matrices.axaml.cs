@@ -25,11 +25,13 @@ public partial class Matrices : UserControl
 
     private void TransposeOneMatrix(object? sender, RoutedEventArgs e)
     {
-        throw new System.NotImplementedException();
+        var matricesViewModel = DataContext as MatricesViewModel;
+        matricesViewModel.TransposeOne();
     }
     
     private void TransposeTwoMatrix(object? sender, RoutedEventArgs e)
     {
-        throw new System.NotImplementedException();
+        var matricesViewModel = DataContext as MatricesViewModel;
+        matricesViewModel.TransposeTwo();
     }
 }
