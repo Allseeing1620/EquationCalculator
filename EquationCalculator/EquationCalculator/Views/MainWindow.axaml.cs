@@ -35,7 +35,7 @@ public partial class MainWindow : Window
                 switch (nvi.Tag)
                 {
                     case "LinearEquations":
-                        navigationView.Content = new LinearEquations { DataContext = vm.LinearEquationsViewModel };
+                        navigationView.Content = new QuadraticEqautions { DataContext = vm.QuadraticEquationsViewModel };
                         break;
                     case "Matrices":
                         navigationView.Content = new Matrices { DataContext = vm.MatricesViewModel };

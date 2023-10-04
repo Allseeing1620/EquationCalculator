@@ -1,0 +1,35 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:components="clr-namespace:EquationCalculator.Components"
+             xmlns:equationCalculator="clr-namespace:EquationCalculator"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             
+             x:Class="EquationCalculator.Components.QuadraticEqautions"
+             x:DataType="components:QuadraticEquationsViewModel">
+    
+    <Design.DataContext>
+        <components:QuadraticEquationsViewModel />
+    </Design.DataContext>
+    
+    <Grid RowDefinitions="Auto,Auto,Auto">
+        <StackPanel Grid.Row="0">
+            <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+                <TextBox Grid.Column="0" Height="25" Width="25" Text="{Binding BoxOne}"></TextBox>
+                <Label Grid.Column="1" Content="x^2+"/>
+                <TextBox Grid.Column="2"  Height="25" Width="25" Text="{Binding BoxTwo}"></TextBox>
+                <Label Grid.Column="3" Content="+x+"/>
+                <TextBox Grid.Column="4"  Height="25" Width="25" Text="{Binding BoxThree}"></TextBox>
+                <Label Grid.Column="5" Content="="/>
+                <TextBox Grid.Column="6"  Height="25" Width="25" Text="{Binding BoxFourth}"></TextBox>
+            </Grid>
+        </StackPanel>
+        
+        <Grid ColumnDefinitions="Auto, Auto" Grid.Row="1">
+            <Label Grid.Column="1" Content="{Binding BoxRes}"></Label>
+        </Grid>
+        
+        <Button Grid.Row = "2" Click="Сalculate">Рассчитать</Button>
+    </Grid>
+</UserControl>

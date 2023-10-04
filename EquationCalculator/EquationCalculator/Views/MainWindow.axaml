@@ -26,7 +26,7 @@
     >
                                          
         <FA:NavigationView.MenuItems>
-            <FA:NavigationViewItem Content="Линейные уравнения" Tag="LinearEquations" DataContext="{Binding LinearEquationsViewModel}"/>
+            <FA:NavigationViewItem Content="Линейные уравнения" Tag="LinearEquations" DataContext="{Binding QuadraticEquationsViewModel}"/>
             <FA:NavigationViewItem Content="Матрицы" Tag="Matrices" DataContext="{Binding MatricesViewModel}"/>
             <FA:NavigationViewItem Content="Логорифмирование" Tag="Logarithm" DataContext="{Binding LogarithmViewModel}" />
         </FA:NavigationView.MenuItems>

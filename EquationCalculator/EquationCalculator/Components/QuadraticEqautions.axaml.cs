@@ -5,9 +5,9 @@ using Avalonia.Markup.Xaml;
 
 namespace EquationCalculator.Components;
 
-public partial class LinearEquations : UserControl
+public partial class QuadraticEqautions : UserControl
 {
-    public LinearEquations()
+    public QuadraticEqautions()
     {
         InitializeComponent();
     }
@@ -19,7 +19,7 @@ public partial class LinearEquations : UserControl
     
     private void Сalculate(object? sender, RoutedEventArgs e)
     {
-        var linearEquations = DataContext as LinearEquationsViewModel;
+        var linearEquations = DataContext as QuadraticEquationsViewModel;
         linearEquations.Result();
     }
 }
