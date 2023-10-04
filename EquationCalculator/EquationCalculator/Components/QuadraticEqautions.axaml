@@ -14,22 +14,25 @@
     </Design.DataContext>
     
     <Grid RowDefinitions="Auto,Auto,Auto">
-        <StackPanel Grid.Row="0">
+        <StackPanel Margin="170,50,0,0" Grid.Row="0">
             <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto">
                 <TextBox Grid.Column="0" Height="25" Width="25" Text="{Binding BoxOne}"></TextBox>
-                <Label Grid.Column="1" Content="x^2+"/>
+                <Label Grid.Column="1" FontSize="25" Content="x² +"/>
                 <TextBox Grid.Column="2"  Height="25" Width="25" Text="{Binding BoxTwo}"></TextBox>
-                <Label Grid.Column="3" Content="+x+"/>
+                <Label Grid.Column="3" FontSize="25" Content="x +"/>
                 <TextBox Grid.Column="4"  Height="25" Width="25" Text="{Binding BoxThree}"></TextBox>
-                <Label Grid.Column="5" Content="="/>
+                <Label Grid.Column="5" FontSize="25" Content="="/>
                 <TextBox Grid.Column="6"  Height="25" Width="25" Text="{Binding BoxFourth}"></TextBox>
             </Grid>
         </StackPanel>
         
-        <Grid ColumnDefinitions="Auto, Auto" Grid.Row="1">
+        <StackPanel Grid.Row="1" Margin="100,10,0,0">
+            <Button Background="#b8debc" Foreground="Black" Width="480" Click="Сalculate">Рассчитать</Button>
+        </StackPanel>
+        
+        <Grid Margin="20,80,0,0" ColumnDefinitions="Auto, Auto" Grid.Row="2">
+            <Label Grid.Column="0">Ответ:</Label>
             <Label Grid.Column="1" Content="{Binding BoxRes}"></Label>
         </Grid>
-        
-        <Button Grid.Row = "2" Click="Сalculate">Рассчитать</Button>
     </Grid>
 </UserControl>

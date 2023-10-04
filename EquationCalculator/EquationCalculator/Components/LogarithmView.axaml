@@ -4,5 +4,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="EquationCalculator.Components.LogarithmView">
-    Welcome to Avalonia!
+    
+    
+    <Grid Margin="10,0,0,0" ColumnDefinitions="Auto,Auto,Auto">
+        <StackPanel Grid.Column="0">
+            <Label FontSize="40">log</Label>
+        </StackPanel>
+       <StackPanel Grid.Column="1">
+           <TextBox Height="10" Width="5" Margin="2,60,2,0"  Text="a"></TextBox>
+       </StackPanel>
+        <StackPanel Grid.Column="2">
+            <TextBox Height="40" Width="40" Margin="0,20,2,0" Text="b"></TextBox>
+        </StackPanel>
+    </Grid>
 </UserControl>

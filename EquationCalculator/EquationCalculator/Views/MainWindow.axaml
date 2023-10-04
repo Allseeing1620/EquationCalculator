@@ -8,6 +8,8 @@
         x:Class="EquationCalculator.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/calculator_icon.ico"
+        Width="700"
+        Height="350"
         Title="Калькулятор">
 
     <Design.DataContext>
