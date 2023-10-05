@@ -43,7 +43,7 @@ public sealed class MatricesStepDefinition
         return res;
     }
 
-    [Given("the first matrice is (.*)")]
+    [Given("the first matrix is (.*)")]
     public void GivenTheFirstMatriceIs(string matr)
     {
         //TODO: implement arrange (precondition) logic
@@ -54,7 +54,7 @@ public sealed class MatricesStepDefinition
         _matricesViewModel.MatrixOne = ParseString(matr);
     }
 
-    [Given("the second matrice is (.*)")]
+    [Given("the second matrix is (.*)")]
     public void GivenTheSecondMatriceIs(string matr)
     {
         //TODO: implement arrange (precondition) logic

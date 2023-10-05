@@ -7,117 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="Matrix calculating done">
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Matrices.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Quadratic.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/MatricesStepDefinition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/QuadraticStepDefinition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Tests/MatricesUnitTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EquationCalculator.Tests/QuadraticUnitTest.cs" afterDir="false" />
+    <list default="true" id="649f7b36-86e2-49de-9332-ff59a7ca8392" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EquationCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Logarithm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Calculator.feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Logarithm.feature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/CalculatorStepDefinitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/LogarithmStepDefinition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.Spec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.Spec.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.Spec.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.Spec.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/TestExecution.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/bin/Debug/net6.0/TestExecution.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/EquationCalculator.Spec.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/ref/EquationCalculator.Spec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/ref/EquationCalculator.Spec.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/refint/EquationCalculator.Spec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/Debug/net6.0/refint/EquationCalculator.Spec.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/EquationCalculator.Spec.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/EquationCalculator.Spec.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/EquationCalculator.Spec.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/EquationCalculator.Spec.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/LogarithmUnitTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/EquationCalculator.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/ref/EquationCalculator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/ref/EquationCalculator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/refint/EquationCalculator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/Debug/net7.0/refint/EquationCalculator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/EquationCalculator.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/EquationCalculator.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/EquationCalculator.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/EquationCalculator.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Tests/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/LogarithmViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Components/MatricesViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net6.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/bin/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/original.ref.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Matrices.feature" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Features/Matrices.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/MatricesStepDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator.Spec/Steps/MatricesStepDefinition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/ref/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/ref/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/refint/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net6.0/refint/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/original.ref.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/references" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/EquationCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/MicroCom.Generator.MSBuild/Generator.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/ref/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/Debug/net7.0/refint/EquationCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/EquationCalculator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EquationCalculator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EquationCalculator/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +68,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.EquationCalculator">
+  <component name="RunManager">
     <configuration name="EquationCalculator" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -213,7 +109,9 @@
       <workItem from="1696449697319" duration="5257000" />
       <workItem from="1696459830090" duration="4411000" />
       <workItem from="1696465376835" duration="202000" />
-      <workItem from="1696465604724" duration="6233000" />
+      <workItem from="1696465604724" duration="6389000" />
+      <workItem from="1696491689414" duration="402000" />
+      <workItem from="1696499337244" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="Matrix calculating done">
       <option name="closed" value="true" />
@@ -223,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696235231922</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete tests">
+      <option name="closed" value="true" />
+      <created>1696472080626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696472080626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Matrix calculating done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matrix calculating done" />
+    <MESSAGE value="Complete tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete tests" />
   </component>
 </project>
