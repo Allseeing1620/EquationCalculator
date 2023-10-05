@@ -56,6 +56,11 @@ public class QuadraticEquationsViewModel: ViewModelBase
         
     }
 
+    public double Discriminant(double a, double b, double c)
+    {
+        return Math.Pow(b, 2) - 4 * a * c;
+    }
+    
     public double[] Equal()
     {
         double[] roots = new []{0.0, 0.0};
@@ -68,7 +73,7 @@ public class QuadraticEquationsViewModel: ViewModelBase
 
         c -= res;
         
-        D = Math.Pow(b, 2) - 4 * a * c;
+        D = Discriminant(a, b, c);
 
         roots[0] = (b * (-1) + Math.Sqrt(D))/(2 * a);
         roots[1] = (b * (-1) - Math.Sqrt(D))/(2 * a);

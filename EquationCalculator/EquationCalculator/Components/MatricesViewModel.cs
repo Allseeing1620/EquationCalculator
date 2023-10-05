@@ -297,7 +297,6 @@ public class MatricesViewModel: ViewModelBase
             }
          }
       }
-      
    }
    
    public void Result()
@@ -350,6 +349,7 @@ public class MatricesViewModel: ViewModelBase
    
    public void TransposeTwo()
    {
+      this.PropertyChanged -= OnPropertyChanged;
       int[,] matr = Transpose(MatrixTwo);
       
       MatricesTwo_L1_0 = matr[0, 0].ToString();
@@ -361,5 +361,7 @@ public class MatricesViewModel: ViewModelBase
       MatricesTwo_L3_0 = matr[2, 0].ToString();
       MatricesTwo_L3_1 = matr[2, 1].ToString();
       MatricesTwo_L3_2 = matr[2, 2].ToString();
+       
+      this.PropertyChanged += OnPropertyChanged;
    }
 }

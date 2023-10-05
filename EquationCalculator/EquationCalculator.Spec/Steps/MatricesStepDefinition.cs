@@ -92,10 +92,24 @@ public sealed class MatricesStepDefinition
         _result = _matricesViewModel.MatrixResult;
     }
 
+    [When("matrix transpones")]
+    public void WhenMatrixTranspones()
+    {
+        _result = _matricesViewModel.Transpose(_matricesViewModel.MatrixOne);
+    }
+
     [Then("the result of equation should be (.*)")]
     public void ThenTheResultShouldBe(string matr)
     {
         //TODO: implement assert (verification) logic
+        int[,] res = ParseString(matr);
+        
+        Assert.AreEqual(res, _result);
+    }
+
+    [Then("the result of transpone should be (.*)")]
+    public void ThenResultOfTransponesShouldBe(string matr)
+    {
         int[,] res = ParseString(matr);
         
         Assert.AreEqual(res, _result);

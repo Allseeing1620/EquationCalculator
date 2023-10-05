@@ -59,16 +59,32 @@ public sealed class QuadraticStepDefinition
     }
 
     [When("Quadratic equation are solved")]
-    public void WhenTheTwoNumbersAreAdded()
+    public void WhenTheQuadraticEquationAreSolved()
     {
         //TODO: implement act (action) logic
 
         _matricesViewModel.Result();
         res = _matricesViewModel.BoxRes;
     }
+    
+    [When("Discriminant are solved")]
+    public void WhenTheDiscriminantSolved()
+    {
+        //TODO: implement act (action) logic
+
+        res = _matricesViewModel.Discriminant(1, 4, -5).ToString();
+    }
 
     [Then("the x should be (.*)")]
-    public void ThenTheResultShouldBe(string result)
+    public void ThenTheXShouldBe(string result)
+    {
+        //TODO: implement assert (verification) logic
+
+        Assert.AreEqual(result, res);
+    }
+    
+    [Then("the D should be (.*)")]
+    public void ThenTheDShouldBe(string result)
     {
         //TODO: implement assert (verification) logic
 
