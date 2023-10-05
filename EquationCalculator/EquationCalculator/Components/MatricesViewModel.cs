@@ -312,6 +312,16 @@ public class MatricesViewModel: ViewModelBase
       ResultL32 = MatrixResult[2, 2];
    }
 
+   public void Solve()
+   {
+      if (this.Sign == "+")
+         Sum();
+      else if (this.Sign == "-")
+         Difference();
+      else if (this.Sign == "*")
+         Multiplication();
+   }
+
    public int[, ] Transpose(int [, ] Matr)
    {
       int buf = 0;
@@ -344,6 +354,8 @@ public class MatricesViewModel: ViewModelBase
       Matrices_L3_1 = matr[2, 1].ToString();
       Matrices_L3_2 = matr[2, 2].ToString();
       
+      Solve();
+      
       this.PropertyChanged += OnPropertyChanged;
    }
    
@@ -361,7 +373,9 @@ public class MatricesViewModel: ViewModelBase
       MatricesTwo_L3_0 = matr[2, 0].ToString();
       MatricesTwo_L3_1 = matr[2, 1].ToString();
       MatricesTwo_L3_2 = matr[2, 2].ToString();
-       
+
+      Solve();
+
       this.PropertyChanged += OnPropertyChanged;
    }
 }
