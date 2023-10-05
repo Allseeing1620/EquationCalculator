@@ -1,6 +1,24 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f4c6fa76_002D7bd9_002D4a96_002D8dc6_002D6b7b60d6c10a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTwoNumbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02611cc3_002D3dac_002D4d40_002D9e6e_002Db2927d1958b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTwoNumbers #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.CalculatorFeature.ResultLogarithm&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.MatricesFeature.AddTwoNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2CE73F3-5EE3-4F05-AB95-B21B15FBB23F::net7.0::EquationCalculator.Tests.MatricesUnitTest.DiffMatrices_test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2CE73F3-5EE3-4F05-AB95-B21B15FBB23F::net7.0::EquationCalculator.Tests.MatricesUnitTest.SumMatrices_test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2CE73F3-5EE3-4F05-AB95-B21B15FBB23F::net7.0::EquationCalculator.Tests.QuadraticUnitTest.EqualQuadratic_test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2CE73F3-5EE3-4F05-AB95-B21B15FBB23F::net7.0::EquationCalculator.Tests.LogarithmTests.ResultLogarithm_test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.MatricesFeature&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.QuadraticFeature.SolveQuadratic&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3dc4653e_002D6b2b_002D41a0_002D8dbd_002Dbeee48316745/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ResultLogarithm" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.LogarithmFeature.ResultLogarithm&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.MatricesFeature.AddTwoNumbers&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=408a32fe_002D94ac_002D4c68_002D9f1e_002D4e67eb77bdcf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddTwoNumbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AF170C01-9570-41FC-B70C-3410F3C543DA::net6.0::EquationCalculator.Spec.Features.MatricesFeature.AddTwoNumbers&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

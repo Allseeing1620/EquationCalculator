@@ -5,7 +5,7 @@ using Xunit;
 namespace EquationCalculator.Spec.Steps;
 
 [Binding]
-public sealed class CalculatorStepDefinitions
+public sealed class LogarithmStepDefinitions
 {
     // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
@@ -14,13 +14,13 @@ public sealed class CalculatorStepDefinitions
     private string _result;
    
 
-    public CalculatorStepDefinitions(ScenarioContext scenarioContext)
+    public LogarithmStepDefinitions(ScenarioContext scenarioContext)
     {
         _scenarioContext = scenarioContext;
     }
 
-    [Given("the first number is (.*)")]
-    public void GivenTheFirstNumberIs(int number)
+    [Given("the base is (.*)")]
+    public void GivenTheBase(int number)
     {
         //TODO: implement arrange (precondition) logic
         // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata
@@ -31,8 +31,8 @@ public sealed class CalculatorStepDefinitions
         _logarithmViewModel.BaseLogarithm = number.ToString();
     }
 
-    [Given("the second number is (.*)")]
-    public void GivenTheSecondNumberIs(int number)
+    [Given("the value is (.*)")]
+    public void GivenTheValue(int number)
     {
         //TODO: implement arrange (precondition) logic
         // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata
@@ -43,8 +43,8 @@ public sealed class CalculatorStepDefinitions
         _logarithmViewModel.ValueLogarithm = number.ToString();
     }
 
-    [When("the two numbers are added")]
-    public void WhenTheTwoNumbersAreAdded()
+    [When("the base and value are added")]
+    public void WhenTheBaseAndValueAreAdded()
     {
         //TODO: implement act (action) logic
         _logarithmViewModel.Result();
@@ -52,7 +52,7 @@ public sealed class CalculatorStepDefinitions
         _result = _logarithmViewModel.ResultValue;
     }
 
-    [Then("the result should be (.*)")]
+    [Then("the result of should be (.*)")]
     public void ThenTheResultShouldBe(string result)
     {
         //TODO: implement assert (verification) logic

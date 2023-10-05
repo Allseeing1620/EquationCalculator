@@ -9278,19 +9278,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\п\\.nuget\\packages\\": {}
+    "C:\\Users\\Oleg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\EquationCalculator.Spec.csproj",
+      "projectUniqueName": "C:\\Users\\Oleg\\RiderProjects\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\EquationCalculator.Spec.csproj",
       "projectName": "EquationCalculator.Spec",
-      "projectPath": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\EquationCalculator.Spec.csproj",
-      "packagesPath": "C:\\Users\\п\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\obj\\",
+      "projectPath": "C:\\Users\\Oleg\\RiderProjects\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\EquationCalculator.Spec.csproj",
+      "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oleg\\RiderProjects\\EquationCalculator\\EquationCalculator\\EquationCalculator.Spec\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\п\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9304,8 +9309,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
-              "projectPath": "D:\\MyProg\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj"
+            "C:\\Users\\Oleg\\RiderProjects\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj": {
+              "projectPath": "C:\\Users\\Oleg\\RiderProjects\\EquationCalculator\\EquationCalculator\\EquationCalculator\\EquationCalculator.csproj"
             }
           }
         }
@@ -9369,7 +9374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

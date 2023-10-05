@@ -266,7 +266,7 @@ public class MatricesViewModel: ViewModelBase
       }
    }
 
-   private void Sum()
+   public void Sum()
    {
       for (int i = 0; i < 3; i++)
       {
@@ -277,7 +277,7 @@ public class MatricesViewModel: ViewModelBase
       }
    }
 
-   private void Difference()
+   public void Difference()
    {  
       for (int i = 0; i < 3; i++)
          for (int j = 0; j < 3; j++) {
@@ -285,7 +285,7 @@ public class MatricesViewModel: ViewModelBase
          }
    }
    
-   private void Multiplication()
+   public void Multiplication()
    {
       for (int i = 0; i < 3; i++)
       {
